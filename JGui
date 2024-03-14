@@ -1,0 +1,13 @@
+//mengimport class JOption dari package java.swing
+import javax.swing.JOptionPane;
+
+//membuat class JGui
+public class JGui
+{
+    //membuat method main
+    public static void main(String[] args)
+    {
+        //menampilkan teks dengan Messege Dialog dari class JOptionPane
+        JOptionPane.showMessageDialog(null, "Welcome to Java World...<^_^>", "GUI", JOptionPane.INFORMATION_MESSAGE);
+    }
+}
