@@ -1,0 +1,23 @@
+public class IdentitasDiri {
+    public static void main(String[] args) {
+        
+        String nama = "Achmad Muzammi Fahmi";
+        String nim = "1234567890";
+        String programStudi = "S1 Pendidikan Teknik Informatika";
+        String offering = "A";
+        String universitas = "Universitas Negeri Malang";
+
+        System.out.println("**************************************");
+        System.out.println("\tIDENTITAS DIRI");
+        System.out.println("**************************************");
+        System.out.println("Nama            : " + nama);
+        System.out.println("NIM             : " + nim);
+        System.out.println("Program Studi   : " + programStudi);
+        System.out.println("Offering        : " + offering);
+        System.out.println("Universitas     : " + universitas);
+        System.out.println("*************************************");
+      
+        System.out.println("Nama saya " + nama + ". Saya adalah mahasiswi dari " + universitas + " dengan NIM " + nim + ".\nSaya mengambil Program Studi S1 " + programStudi + " dan berada di offering " + offering + ".");
+        System.out.println("*************************************");
+    }
+}
