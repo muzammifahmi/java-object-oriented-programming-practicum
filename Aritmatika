@@ -1,0 +1,36 @@
+class OAritmatika
+{
+    public static void main(String[] args)
+    {
+        int a=3, b=9;
+        double c=2.25, d=4.5;
+        double op2=((a*b)-(b-c));
+        double op4=((a+b)/(b/d));
+        double op6=(b%a);
+        double op8=(d%c);
+        System.out.println("\nVariabel yang dideklarasikan:\n");
+        System.out.println("Nilai a = "+a);
+        System.out.println("Nilai b = "+b);
+        System.out.println("Nilai c = "+c);
+        System.out.println("Nilai d = "+d);
+        System.out.println("\n\tTentukan hasil dari operasi-operasi di bawah ini!\n");
+        System.out.println("1.  (b-a)+(a*c)");
+        System.out.println("2.  (a*b)-(b-c)");
+        System.out.println("3.  (d/a)*(a=b)");
+        System.out.println("4.  (a+b)/(b/d)");
+        System.out.println("5.  a&b");
+        System.out.println("6.  b%a");
+        System.out.println("7.  c%a");
+        System.out.println("8.  d%c");
+        System.out.println("\n\tJawab:\n");
+        System.out.println("1. Hasil dari perhitungan (b-a)+(a*c) adalah "+((b-a)+(a*b)));
+        System.out.println("2. Hasil dari perhitungan (a+b)-(b-c) adalah "+op2);
+        System.out.println("3. Hasil dari perhitungan ("+d+"/"+a+")*("+a+"+"+b+") adalah "+((d/a)*(a+b)));
+        System.out.println("4. Hasil dari perhitungan ("+a+"+"+b+")/("+b+"/"+d+") adalah "+op4);
+        System.out.println("5. Sisa hasil bagi dari a%d adalah "+(a%d));
+        System.out.println("6. Sisa hasil bagi dari b%a adalah "+op6);
+        System.out.println("7. Sisa hasil bagi dari "+c+" modulus "+a+" adalah "+(c%a));
+        System.out.println("8. Sisa hasil bagi dari "+d+" modulus "+c+" adalah "+op8);
+
+    }
+}
