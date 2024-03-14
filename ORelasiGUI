@@ -1,0 +1,31 @@
+import javax.swing.JOptionPane;
+class ORelasiGUI
+{
+    public static void main (String[] args)
+    {
+        int h=7, i=7, j=11, k=19;
+        String _1 = "Operasi Lebih Besar: ";
+        String _2 = "Operasi Lebih Kecil: ";
+        String _3 = "Operasi Lebih Besar atau Sama Dengan: ";
+        String _4 = "Operasi Lebih Kecil atau Sama Dengan: ";
+        String _5 = "Operasi Sama Dengan: ";
+        String _6 = "Operasi Tidak Sama Dengan: ";
+
+        JOptionPane.showMessageDialog(null, "MEMANFAATKAN PENGGUNAAN OPERATOR RELASI");
+
+        JOptionPane.showMessageDialog(null, "Variabel yang dideklarasikan adalah: \nNilai k = "+k, "VARIABEL", JOptionPane.INFORMATION_MESSAGE);
+
+        JOptionPane.showMessageDialog(null, _1+"\nPernyataan i>j bernilai "+(i>j)+"\nPernyataan k>j bernilai "+(k>j)+"\nPernyataan h>i bernilai "+(h>i), "OPERASI LEBIH BESAR", JOptionPane.PLAIN_MESSAGE);
+
+        JOptionPane.showMessageDialog(null, _2+"\nPernyataan i<k bernilai "+(i<k)+"\nPernyataan k<i bernilai "+(j<k)+"\nPernyataan h>i bernilai "+(h>i), "OPERASI LEBIH KECIL", JOptionPane.PLAIN_MESSAGE);
+
+        JOptionPane.showMessageDialog(null, _3+"\nPernyataan i>=j bernilai "+(i>=j)+"\nPernyataan k>=j bernilai "+(k>=j)+"\nPernyataan h>=i bernilai "+(h>=i), "OPERASI LEBIH BESAR ATAU SAMA DENGAN", JOptionPane.PLAIN_MESSAGE);
+
+        JOptionPane.showMessageDialog(null, _4+"\nPernyataan i<=k bernilai "+(i<=k)+"\nPernyataan h<=i bernilai "+(h<=i), "OPERASI LEBIH KECIL ATAU SAMA DENGAN", JOptionPane.PLAIN_MESSAGE);
+
+        JOptionPane.showMessageDialog(null, _5+"\nPernyataan i==j bernilai "+(i==j)+"\nPernyataan k==j bernilai "+(k==j)+"\nPernyataan h==i bernilai "+(h==i), "OPERASI SAMA DENGAN", JOptionPane.PLAIN_MESSAGE);
+        
+        JOptionPane.showMessageDialog(null, _6+"\nPernyataan i!=k bernilai "+(i!=k)+"\nPernyataan j!=i bernilai "+(j!=i)+"\nPernyataan h!=i bernilai "+(h!=i), "OPERASI TIDAK SAMA DENGAN", JOptionPane.PLAIN_MESSAGE);
+    }
+
+}
